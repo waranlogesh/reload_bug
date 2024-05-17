@@ -4,7 +4,7 @@ import Config
 # you can enable the server option below.
 config :reload_bug, ReloadBugWeb.Endpoint,
   http: [ip: {127, 0, 0, 1}, port: 4002],
-  secret_key_base: "aDGsarHpgvuIPe0s9dMc9NnEKtT+QgLP0VrxQw/mqOjGN48xcCaNDq93XP0AVRgA",
+  secret_key_base: "HBdYMLz5cpVuXx1KR/ZWGKXhuSV355712+mbe8myafCTiImUF5PwemUipxRwgyTn",
   server: false
 
 # In test we don't send emails.

@@ -7,7 +7,7 @@ defmodule ReloadBugWeb.Endpoint do
   @session_options [
     store: :cookie,
     key: "_reload_bug_key",
-    signing_salt: "JGg261sf",
+    signing_salt: "sxWn4Hvv",
     same_site: "Lax"
   ]
 

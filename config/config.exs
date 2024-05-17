@@ -15,7 +15,7 @@ config :reload_bug, ReloadBugWeb.Endpoint,
     layout: false
   ],
   pubsub_server: ReloadBug.PubSub,
-  live_view: [signing_salt: "2jWl13hr"]
+  live_view: [signing_salt: "Z9hm+z+n"]
 
 # Configures the mailer
 #

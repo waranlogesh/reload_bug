@@ -13,7 +13,7 @@ config :reload_bug, ReloadBugWeb.Endpoint,
   check_origin: false,
   code_reloader: true,
   debug_errors: true,
-  secret_key_base: "N4FDy+TMHYMpKpwcBlsouUqSrMabHwzBr3klFPr61izwjMXQqxL5OokmSwpwkEzs",
+  secret_key_base: "Wwl2NAoIVd3lU/ICWaOf3/LHK+mSQtWtxWkocEuglfdxnDUEOTTWTPR2PAsM4FY/",
   watchers: [
     esbuild: {Esbuild, :install_and_run, [:default, ~w(--sourcemap=inline --watch)]},
     tailwind: {Tailwind, :install_and_run, [:default, ~w(--watch)]}
