@@ -32,3 +32,5 @@ reload_bug-*.tar
 npm-debug.log
 /assets/node_modules/
 
+# Elixir Language Server IDE plugin
+.elixir_ls
