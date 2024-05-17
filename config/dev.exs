@@ -45,10 +45,16 @@ config :reload_bug, ReloadBugWeb.Endpoint,
 # Watch static and templates for browser reloading.
 config :reload_bug, ReloadBugWeb.Endpoint,
   live_reload: [
+    notify: [
+      live_view: [
+        ~r"lib/reload_bug_web/core_components.ex$",
+        ~r"lib/reload_bug_web/(live|components)/.*(ex|heex)$"
+      ]
+    ],
     patterns: [
-      ~r"priv/static/.*(js|css|png|jpeg|jpg|gif|svg)$",
+      ~r"priv/static/(?!uploads/).*(js|css|png|jpeg|jpg|gif|svg)$",
       ~r"priv/gettext/.*(po)$",
-      ~r"lib/reload_bug_web/(controllers|live|components)/.*(ex|heex)$"
+      ~r"lib/reload_bug_web/controllers/.*(ex|heex)$"
     ]
   ]
 

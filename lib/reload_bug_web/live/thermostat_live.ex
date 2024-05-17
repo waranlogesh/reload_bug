@@ -3,7 +3,7 @@ defmodule ReloadBugWeb.ThermostatLive do
 
   def render(assigns) do
     ~H"""
-    Current temperature d: <%= @temperature %>°F <button phx-click="inc_temperature">+</button>
+    Current temperature: <%= @temperature %>°F <button phx-click="inc_temperature">+</button>
     """
   end
 
